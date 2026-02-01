@@ -1,0 +1,17 @@
+[project]
+name = "sam3-vastai-app"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy<2",
+    "pillow>=12.1.0",
+    "pydantic>=2.12.5",
+    "sam3[notebook]",
+    "torch>=2.10.0",
+    "torchvision>=0.25.0",
+]
+
+[tool.uv.sources]
+sam3 = { git = "https://github.com/facebookresearch/sam3.git" }
