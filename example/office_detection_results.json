@@ -1,0 +1,184 @@
+{
+    "results": [
+        {
+            "label": "desk_lamp",
+            "box_2d": {
+                "coordinates": [
+                    76.0,
+                    98.0,
+                    541.0,
+                    468.0
+                ],
+                "xyxy": false
+            }
+        },
+        {
+            "label": "book",
+            "box_2d": {
+                "coordinates": [
+                    641.0,
+                    131.0,
+                    983.0,
+                    664.0
+                ],
+                "xyxy": false
+            }
+        },
+        {
+            "label": "book",
+            "box_2d": {
+                "coordinates": [
+                    391.0,
+                    427.0,
+                    544.0,
+                    811.0
+                ],
+                "xyxy": false
+            }
+        },
+        {
+            "label": "magnifying_glass",
+            "box_2d": {
+                "coordinates": [
+                    652.0,
+                    173.0,
+                    989.0,
+                    513.0
+                ],
+                "xyxy": false
+            }
+        },
+        {
+            "label": "wine_glass",
+            "box_2d": {
+                "coordinates": [
+                    245.0,
+                    759.0,
+                    508.0,
+                    886.0
+                ],
+                "xyxy": false
+            }
+        },
+        {
+            "label": "tea_cup",
+            "box_2d": {
+                "coordinates": [
+                    494.0,
+                    669.0,
+                    636.0,
+                    873.0
+                ],
+                "xyxy": false
+            }
+        },
+        {
+            "label": "telescope",
+            "box_2d": {
+                "coordinates": [
+                    330.0,
+                    457.0,
+                    441.0,
+                    712.0
+                ],
+                "xyxy": false
+            }
+        },
+        {
+            "label": "bread",
+            "box_2d": {
+                "coordinates": [
+                    609.0,
+                    856.0,
+                    762.0,
+                    1012.0
+                ],
+                "xyxy": false
+            }
+        },
+        {
+            "label": "pocket_watch",
+            "box_2d": {
+                "coordinates": [
+                    609.0,
+                    98.0,
+                    719.0,
+                    214.0
+                ],
+                "xyxy": false
+            }
+        },
+        {
+            "label": "bottle",
+            "box_2d": {
+                "coordinates": [
+                    315.0,
+                    22.0,
+                    489.0,
+                    120.0
+                ],
+                "xyxy": false
+            }
+        },
+        {
+            "label": "wooden_box",
+            "box_2d": {
+                "coordinates": [
+                    476.0,
+                    0.0,
+                    658.0,
+                    219.0
+                ],
+                "xyxy": false
+            }
+        },
+        {
+            "label": "stack_of_papers",
+            "box_2d": {
+                "coordinates": [
+                    529.0,
+                    232.0,
+                    668.0,
+                    548.0
+                ],
+                "xyxy": false
+            }
+        },
+        {
+            "label": "feather",
+            "box_2d": {
+                "coordinates": [
+                    297.0,
+                    303.0,
+                    535.0,
+                    450.0
+                ],
+                "xyxy": false
+            }
+        },
+        {
+            "label": "glasses",
+            "box_2d": {
+                "coordinates": [
+                    330.0,
+                    594.0,
+                    390.0,
+                    757.0
+                ],
+                "xyxy": false
+            }
+        },
+        {
+            "label": "glasses",
+            "box_2d": {
+                "coordinates": [
+                    441.0,
+                    19.0,
+                    525.0,
+                    182.0
+                ],
+                "xyxy": false
+            }
+        }
+    ]
+}

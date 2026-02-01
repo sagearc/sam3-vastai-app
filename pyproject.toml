@@ -9,6 +9,7 @@ dependencies = [
     "numpy<2",
     "pillow>=12.1.0",
     "pydantic>=2.12.5",
+    "pytest>=9.0.2",
     "sam3[notebook]",
     "torch>=2.10.0",
     "torchvision>=0.25.0",
