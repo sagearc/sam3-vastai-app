@@ -18,6 +18,7 @@ segmenter: SAM3Segmenter | None = None
 
 # Output directory for artifacts
 OUTPUT_BASE_DIR = Path(os.getenv("OUTPUT_DIR", "outputs"))
+OUTPUT_BASE_DIR.mkdir(parents=True, exist_ok=True)
 
 
 @asynccontextmanager
@@ -27,9 +28,6 @@ async def lifespan(app: FastAPI):
     print("Loading SAM3 model...")
     segmenter = SAM3Segmenter()
     print("SAM3 model loaded successfully!")
-    
-    # Ensure output directory exists
-    OUTPUT_BASE_DIR.mkdir(parents=True, exist_ok=True)
     
     yield
     
