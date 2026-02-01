@@ -1,10 +1,11 @@
 [project]
 name = "sam3-vastai-app"
 version = "0.1.0"
-description = "Add your description here"
+description = "SAM3 Segmentation API Service"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "fastapi>=0.128.0",
     "numpy<2",
     "pillow>=12.1.0",
     "pydantic>=2.12.5",
@@ -15,3 +16,6 @@ dependencies = [
 
 [tool.uv.sources]
 sam3 = { git = "https://github.com/facebookresearch/sam3.git" }
+
+[project.scripts]
+serve = "uvicorn main:app --host 0.0.0.0 --port 8000"

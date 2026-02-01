@@ -179,7 +179,7 @@ class SAM3Segmenter:
             bbox_frame = bbox_left_frame | bbox_right_frame | bbox_top_frame | bbox_bottom_frame
             
             framed_mask = best_mask | bbox_frame
-            saved_path = save_mask_to_dir(
+            save_mask_to_dir(
                 framed_mask,
                 f"framed_segmask_{i + 1:02d}",
                 seg_res.prompt,
