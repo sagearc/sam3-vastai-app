@@ -11,3 +11,6 @@ wheels/
 
 # IDE settings
 .vscode
+
+# App artifacts
+outputs
