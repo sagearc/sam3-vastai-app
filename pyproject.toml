@@ -13,6 +13,7 @@ dependencies = [
     "sam3[notebook]",
     "torch>=2.10.0",
     "torchvision>=0.25.0",
+    "uvicorn>=0.40.0",
 ]
 
 [tool.uv.sources]
